@@ -169,7 +169,7 @@
 }
 
 .contribution-info {
-    margin: 20px 50px 20px 90px;
+    margin: 20px 50px 20px 100px;
 
 }
 
@@ -180,6 +180,8 @@
     background-color: rgb(222, 48, 69);
     font-size: 20px;
     padding: 10px;
+    border-radius: 5px;
+    border: 0;
 }
 
 .contribution-info .btn-secondary {
@@ -205,4 +207,106 @@
     width: 500px;
     height: 430px;
     object-fit: cover;
+    border-radius: 5px;
+}
+
+.survival {
+    margin-top: 100px;
+    display: flex;
+    gap: 45px;
+}
+
+.survival-image img {
+    margin-top: 10px;
+    margin-left: 180px;
+    width: 500px;
+    height: 490px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.survival-info {
+    margin: 80px 200px 30px 20px;
+}
+
+.survival-title {
+    padding: 10px 210px 20px 10px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.survival-description {
+    padding: 0px 200px 20px 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.survival-info .btn-secondary {
+    margin-left: 10px;
+}
+
+.update {
+    margin: 100px 180px 20px 180px;
+
+}
+
+.update-title {
+    padding: 20px 150px 20px 350px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.update-description {
+    text-align: center;
+    padding: 0px 200px 10px 150px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.subscription {
+    width: 950px;
+    height: 200px;
+    margin: 50px 0px 10px 100px;
+    background-color: rgba(239, 202, 187, 0.826);
+}
+
+.subscription input[type="email"] {
+    width: 280px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(217, 217, 217);
+    color: rgb(170, 159, 159);
+    border: 0;
+    margin-top: 90px;
+    margin-left: 220px;
+    margin-bottom: 50px;
+}
+
+.subscription input[type="submit"] {
+    width: 190px;
+    height: 40px;
+    background-color: #d31919fb;
+    color: whitesmoke;
+    border-radius: 5px;
+    border: 0;
+}
+
+.footer {
+    background-color: rgb(11, 13, 23);
+    margin-top: 50px;
+    height: 130px;
+}
+
+.footer-title {
+    font-weight: 400px;
+    font-size: 50px;
+    color: rgb(246, 86, 86);
+    margin-left: 630px;
+    margin-bottom: 20px;
+}
+
+.footer-description {
+    margin-left: 670px;
+    font-size: 20px;
+    color: aliceblue;
 }
